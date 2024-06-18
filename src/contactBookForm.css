@@ -1,0 +1,30 @@
+.formContainer {
+  font-family: sans-serif;
+  text-align: center;
+  .error {
+    color: red;
+  }
+  .fullnameIp {
+    margin-bottom: 15px;
+  }
+  .submitBtn {
+    color: rgb(45, 45, 218);
+    background-color: rgb(75, 223, 132);
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    width: 380px;
+  }
+  .cancelBtn {
+    color: rgb(253, 250, 250);
+    background-color: rgb(205, 68, 53);
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    width: 380px;
+  }
+}

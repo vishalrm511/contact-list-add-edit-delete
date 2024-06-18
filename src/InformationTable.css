@@ -1,0 +1,34 @@
+.contactInfo {
+  /* display: flex; */
+  /* align-items: centre; */
+  .tableTitle {
+    color: black;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  .tableBox {
+    bordercollapse: collapse;
+    margin-top: 20px;
+    border: 1px solid rgb(46, 39, 39);
+    .tableCell {
+      border: 1px solid gray;
+      margin: 0;
+      padding: "5px 10px";
+      width: max-content;
+      min-width: 150px;
+    }
+    .btnDiv {
+      display: inline-flex;
+      padding: 3px;
+      .editBtn {
+        margin-right: 5px;
+        color: rgb(79, 79, 193);
+      }
+      .deleteBtn {
+        margin-right: 5px;
+        color: rgb(209, 47, 47);
+      }
+    }
+  }
+}
